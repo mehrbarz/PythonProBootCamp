@@ -53,6 +53,19 @@ isWinner = True
 print(f"Your score is {score} at the distance of {kilometers} km and you are a {isWinner} winner." )
 
 
+#Life in weeks
+age = input('what is your age? ')
+age_as_int = int(age)
+years_remaining = 90 - age_as_int
+days_remaining = years_remaining * 365
+weeks_remaining = years_remaining * 52
+months_remaining = years_remaining *12 
+
+print(months_remaining)
+print(f'You have {days_remaining} days and {weeks_remaining} weeks remaining to be 90 years old.')
+
+
+
 
 
 
