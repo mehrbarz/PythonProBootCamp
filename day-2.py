@@ -39,4 +39,20 @@ weight = input("enter your weight in kg: ")
 BMI = (int(weight) / (float(height) **2 ))
 print(int(BMI))
 
+#round 
+print(round(4.555555 , 2))
+
+#floor division
+print(8 // 3)
+
+#f-string
+score = 4
+kilometers = 32
+isWinner = True
+
+print(f"Your score is {score} at the distance of {kilometers} km and you are a {isWinner} winner." )
+
+
+
+
 
